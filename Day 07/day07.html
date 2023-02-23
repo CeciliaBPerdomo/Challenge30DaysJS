@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 07 / 30 Challenge JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="margin: 25px;">
+    <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="data:image/png;base64,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" 
+            style="width: 80%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Día <b style="color: red">07</b> / 30 Challenge JS</h5>
+              <p class="card-text">Ejercicios con JS - Funciones</p>
+              <p class="card-text"><small class="text-muted">22 de Febrero de 2023</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="nivel01.js"></script> 
+    <!-- <script src="nivel02.js"></script> -->
+    <!-- <script src="nivel03.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

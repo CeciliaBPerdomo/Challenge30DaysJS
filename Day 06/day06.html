@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 06 / 30 Challenge JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="margin: 25px;">
+    <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="data:image/png;base64,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" 
+            style="width: 80%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Día <b style="color: red">06</b> / 30 Challenge JS</h5>
+              <p class="card-text">Ejercicios con JS - Bucles</p>
+              <p class="card-text"><small class="text-muted">22 de Febrero de 2023</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="nivel01.js"></script> 
+    <script src="nivel02.js"></script>
+    <script src="nivel03.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
