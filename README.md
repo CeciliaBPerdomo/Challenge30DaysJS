@@ -8,3 +8,4 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 5: Arrays
 - Día 6: Bucles
 - Día 7: Funciones
+- Día 8: Objetos

@@ -186,4 +186,6 @@ Ejercicios: Nivel 3
 
     sevenRandomNumbers()[(1, 4, 5, 7, 9, 8, 0)];
 
-    Escriba una función llamada reverseCountries, toma el array de países y primero copia el array y retorna el array original invertido 🎉 ¡FELICITACIONES! 🎉
+    Escriba una función llamada reverseCountries, toma el array de países y primero copia el array y retorna el array original invertido 
+    
+    🎉 ¡FELICITACIONES! 🎉
