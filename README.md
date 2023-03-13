@@ -10,3 +10,8 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 07: Funciones
 - Día 08: Objetos
 - Día 09: Función De Orden Superior
+- Día 10: Sets y Maps
+- Día 11: Desestructuración y Spreading
+- Día 12: Expresiones Regulares
+- Día 13: Métodos del Objeto Console
+- Día 14: Manejo de Errores
