@@ -16,3 +16,4 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 13: Métodos del Objeto Console
 - Día 14: Manejo de Errores
 - Día 15: Clases
+- Día 16: JSON
