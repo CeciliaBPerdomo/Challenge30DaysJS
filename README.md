@@ -17,3 +17,4 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 14: Manejo de Errores
 - Día 15: Clases
 - Día 16: JSON
+- Día 17: Web Storages
