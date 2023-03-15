@@ -18,3 +18,7 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 15: Clases
 - Día 16: JSON
 - Día 17: Web Storages
+- Día 18: Promesas
+- Día 19: Closures
+- Día 20: Escribiendo Códigos Limpios
+- Día 21: Document Object Model(DOM)
