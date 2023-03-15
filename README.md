@@ -21,4 +21,5 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 18: Promesas
 - Día 19: Closures
 - Día 20: Escribiendo Códigos Limpios
-- Día 21: Document Object Model(DOM)
+- Día 21: Document Object Model (DOM)
+- Día 22: Manipulación del Objeto DOM
