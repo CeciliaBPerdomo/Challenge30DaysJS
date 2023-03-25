@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Día 23 / 30 Challenge JS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container" style="margin: 25px;">
+    <div class="card mb-3" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="data:image/png;base64,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"
+            style="width: 100%">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Día <b style="color: red">23</b> / 30 Challenge JS</h5>
+            <p class="card-text">Ejercicios con JS - Event Listeners</p>
+            <p class="card-text"><small class="text-muted">20 de Marzo de 2023</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+  <div id="numbergenerator">
+    <p style="text-align: center; font-size: 36px;"><b>Generador de números</b></p>
+    <p style="text-align: center;">30 días de JavaScript - by C. Perdomo</p>
+
+    <form class="d-flex justify-content-center" 
+    style="background-color: aquamarine; padding: 8px;">
+
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="exampleInputEmail1" class="form-label"><b>Cantidad de números a generar:</b></label>
+        </div>
+        <div class="col-auto">
+          <input type="number" class="form-control" id="numero" 
+          aria-describedby="emailHelp">
+        </div>
+
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-success" onclick="init()">Generar</button>
+        </div>
+      </div>
+
+    </form>
+    <br>
+    <div id="numeros">
+      
+    </div>
+  </div>
+  <hr>
+
+  <!-- 
+    <div id="niveldos">
+      <p style="text-align: center; font-size: 36px;"> World Countries List </p>
+    </div>
+    <hr>
+     -->
+  <script src="nivel01.js"></script>
+  <!-- <script src="nivel02.js"></script> -->
+  <!-- <script src="nivel03.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
