@@ -24,3 +24,4 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 21: Document Object Model (DOM)
 - Día 22: Manipulación del Objeto DOM
 - Día 23: Event Listeners
+- Día 24: Proyecto
