@@ -10,9 +10,6 @@ fetch(countriesAPI)
 
 
 function mostrarPaises(data) {
-    // console.log(data)
-    // console.log(data[1].name)
-    // console.log(data.length)
     const contenedor = document.getElementById("niveldos");
  
     const tabla = document.createElement("table");
