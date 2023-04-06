@@ -1,5 +1,5 @@
 //  1. Cuántos idiomas hay en el archivo de objetos de países.
-const countries_data = 
+const countries = 
 [
 	{
 			"name": "Afghanistan",
@@ -2864,3 +2864,18 @@ const countries_data =
 			"area": 390757
 	}
 ]
+
+
+let languages = {}
+   
+    countries.map(country => {
+        country.languages.map(language => {
+          if(languages[language.name] === undefined){
+            languages[language.name] = 0
+          }
+          languages[language.name]++
+        })
+      })
+     
+     console.log(languages)
+    
