@@ -63,11 +63,13 @@ async function idiomas (){
             languages[language.name] = 0
           }
           languages[language.name]++
+         // console.log(language.name, languages[language.name])
+          arr.push({"name": language.name, "cantidad": languages[language.name]})
         })
-        arr.push(languages)
     })
      
 
-    let arrayIdiomas = arr[249]
-    console.log(arrayIdiomas)
+
+    console.log(arr.sort((x, y) => y.name - x.name))
+   
   }

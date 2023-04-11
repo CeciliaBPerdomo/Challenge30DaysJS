@@ -16,8 +16,30 @@
         <h1 class="paisesmundo">Lista de países del mundo</h1>
         <h3 class="total" id="total"></h3>
 
-        <hr class="text-danger border-bottom border-danger" style="margin-top: 100px;">
+        <div class="col-sm-5">
+            <!-- <label class="visually-hidden" for="specificSizeInputGroupUsername">Buscar país</label> -->
+            <div class="input-group">
+                <input type="text" class="form-control" 
+                id="specificSizeInputGroupUsername" placeholder="Buscar país">
+                <div class="input-group-text">
+                    <button type="button" class="btn btn-dark" 
+                    style="margin-right: 3px;" onclick="buscar()">Buscar</button>
+                    <button type="button" class="btn btn-dark"
+                    onclick="ordenarAlReves()">Z->A</button>
+                    <button type="button" class="btn btn-dark" 
+                    style="margin-left: 3px;" onclick="reiniciar()">
+                    Reiniciar</button>
+                </div> 
+            </div>
+          </div>
+        
+        
+          
+        <!-- <hr class="text-danger border-bottom border-danger" style="margin-top: 100px;"> -->
     </div>
+    <div id="niveluno" style="margin-top: 60px;"></div>
+    <div id="niveldos" style="margin-top: 60px;"></div>
+    <div id="niveltres" style="margin-top: 60px;"></div>
 
     <script src="nivel01.js"></script>
 </body>
