@@ -27,3 +27,4 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md
 - Día 24: Proyecto: Sistema Solar
 - Día 25: Proyecto: Mayor población e idioma más hablado en el mundo
 - Día 26: Proyecto: Países del mundo
+- Día 27: Proyecto: Perfil
